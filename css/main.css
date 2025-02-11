@@ -34,7 +34,7 @@ a {
     color: #ff8800;
 }
 
-.page-index a:hover {
+.page-index a:hover, footer a:hover {
     color: #666666;
 }
 
@@ -120,4 +120,12 @@ main {
     color: #ff8800;
 }
 
-
+/********** STYLE FOOTER *********/
+footer {
+    background-color: #151515;
+    margin-top: 2rem;
+    padding: 20px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
