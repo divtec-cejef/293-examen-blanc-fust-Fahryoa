@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-size: 1.3rem;
-    font-weight: 1.5;
+    line-height: 1.5;
     max-width: 800px;
 }
 
@@ -84,11 +84,14 @@ main {
 .produits {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 .produits li {
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
+    flex-basis: 50%;
 }
 
 .produits li:hover {
@@ -96,7 +99,6 @@ main {
 }
 
 .produits figure {
-    display: flex;
     text-align: center;
     margin: 0;
     padding: 1.5rem .75rem;
@@ -113,5 +115,6 @@ main {
     margin: .5em 0 0;
     line-height: 1.1;
     color: #ff8800;
-    flex-basis: 50%;
 }
+
+
